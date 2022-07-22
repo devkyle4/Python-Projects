@@ -3,10 +3,10 @@ import time
 
 print('Hello World')
 
-CONSUMER_KEY = 'fR82Boe7XAzNAQuahkrSC5NHW'
-CONSUMER_SECRET = 'HtxL7GI6IoKMC6UFJDCOwfz5R1tY2ITx1pFQ8sxkqX4CiPbEcO'
-ACCESS_TOKEN = '1543310432278118401-HcyC56YUPg9V0R1adIUCGBs6eVGZfI'
-ACCESS_TOKEN_SECRET = 'COyYcp4ZVl9AmBVsIXROEy9sMcH6u9rFeL8ZV6UJOktyH'
+CONSUMER_KEY = '######################'
+CONSUMER_SECRET = '##########################'
+ACCESS_TOKEN = '#############################'
+ACCESS_TOKEN_SECRET = '##############################'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
